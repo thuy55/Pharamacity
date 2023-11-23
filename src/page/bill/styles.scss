@@ -1,0 +1,42 @@
+.container {
+    position: fixed;
+    top: 20px;
+    left: 200px;
+}
+.fixed-action-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+    padding: 0 0 0 15px;
+}
+
+.dropdown {
+    position: absolute;
+    // top: 0;
+    // right: 0;
+    display: flex;
+    flex-direction: row; /* Change to row to display items horizontally */
+    align-items: center; /* Center items vertically */
+    // justify-content: flex-end; /* Align items to the start */
+    margin-top: 10px; /* Adjust this value as needed for spacing */
+    visibility: hidden;
+    transition: top 0.3s ease; /* Add a transition for smooth animation */
+}
+
+.dropdown button {
+    margin-right: 10px; /* Adjust the spacing between items as needed */
+}
+
+.fixed-action-btn:hover .dropdown {
+    visibility: visible;
+    top: 0; /* Move in when hovering */
+}
+.table-container {
+    max-height: 200px; /* Đặt chiều cao tối đa cho phần tử cha */
+    overflow-y: auto; /* Tạo thanh trượt dọc khi nội dung vượt quá chiều cao */
+  }
+
+  
