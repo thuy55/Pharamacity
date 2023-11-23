@@ -1,0 +1,22 @@
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Bắt đầu từ vị trí ban đầu */
+    }
+    25% {
+      transform: translateY(-40px); /* Di chuyển lên trên 20px */
+    }
+    50% {
+        transform: translateY(0); /* Trở lại vị trí ban đầu */
+      }
+    75% {
+      transform: translateY(40px); /* Trở lại vị trí ban đầu */
+    }
+    100% {
+        transform: translateY(0); /* Di chuyển lên trên 20px */
+      }
+  }
+
+  .img-login {
+    width: 70%;
+    animation: moveUpDown 5s linear infinite; /* Áp dụng chuyển động với khoảng thời gian 2 giây và lặp vô hạn */
+  }

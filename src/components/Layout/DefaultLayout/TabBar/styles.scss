@@ -1,0 +1,42 @@
+
+
+.wrapTabBar {
+    background-color: #CAEDA6;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.wrapLogo {
+    background-color: #ccc;
+    width: 100%;
+}
+
+.wrapItem {
+//    padding: 12px;
+}
+
+.itemUseAll {
+    
+}
+
+.itemUseAll a {
+    text-decoration: none;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding: 12px 0 12px 12px;
+}
+
+.itemUseAll a span {
+    color: #000;
+    font-size: 18px;
+}
+
+.sizeImg {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
